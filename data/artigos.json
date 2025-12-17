@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "hierarquia-visual-escaneabilidade",
+    "title": "Hierarquia visual e escaneabilidade: faça o usuário entender em 3 segundos",
+    "description": "Como usar contraste, tipografia e espaçamento para guiar a leitura e reduzir esforço cognitivo.",
+    "author": "Lara",
+    "date": "2025-01-05",
+    "topic": "Layout",
+    "cover": "/images/hierarquia.png",
+    "tags": ["UI", "Layout", "Hierarquia"],
+    "content": [
+      "Usuários não leem interfaces, eles escaneiam. A hierarquia visual existe para deixar claro o que é mais importante em poucos segundos.",
+      "Comece definindo um ponto focal por tela. Título, ação principal e informação-chave devem se destacar por tamanho, peso ou cor — mas nunca todos ao mesmo tempo.",
+      "Espaçamento cria grupos visuais automaticamente. Elementos relacionados ficam mais próximos; seções diferentes precisam de mais respiro.",
+      "Uma boa hierarquia reduz fricção, acelera decisões e transmite profissionalismo. Se tudo chama atenção, nada chama atenção."
+    ]
+  },
+  {
+    "slug": "grid-e-alinhamento-profissional",
+    "title": "Grid e alinhamento: o segredo invisível de interfaces profissionais",
+    "description": "Como usar grid, alinhamento e repetição para deixar layouts mais organizados e confiáveis.",
+    "author": "Lara",
+    "date": "2025-01-09",
+    "topic": "Layout",
+    "cover": "/images/grid.png",
+    "tags": ["UI", "Grid", "Layout"],
+    "content": [
+      "Layouts visualmente fortes quase sempre seguem um grid consistente, mesmo quando ele não é óbvio.",
+      "Trabalhar com uma base de 8px ajuda a manter ritmo e proporção entre margens, paddings e espaçamentos.",
+      "Alinhamento cria ordem. Títulos, textos e botões devem compartilhar eixos visuais claros.",
+      "Pequenos desalinhamentos passam sensação de descuido, mesmo quando o conteúdo é bom."
+    ]
+  },
+  {
+    "slug": "layout-responsivo-sem-sofrer",
+    "title": "Layout responsivo sem sofrimento: como pensar antes de codar",
+    "description": "Estratégias de layout para adaptar interfaces sem perder hierarquia em telas menores.",
+    "author": "Lara",
+    "date": "2025-01-14",
+    "topic": "Layout",
+    "cover": "/images/responsivo.png",
+    "tags": ["UI", "Responsivo", "Layout"],
+    "content": [
+      "Design responsivo começa no planejamento, não no media query.",
+      "Pense em blocos empilháveis: o que fica lado a lado no desktop precisa funcionar em coluna no mobile.",
+      "Priorize conteúdo. Em telas pequenas, apenas o essencial deve aparecer primeiro.",
+      "Testar cedo em diferentes larguras evita retrabalho e decisões forçadas no final."
+    ]
+  },
+  {
+    "slug": "escala-tipografica-ui",
+    "title": "Escala tipográfica para UI: menos estilos, mais clareza",
+    "description": "Como definir tamanhos de texto consistentes e funcionais para interfaces digitais.",
+    "author": "Lara",
+    "date": "2025-01-18",
+    "topic": "Tipografia",
+    "cover": "/images/escala.png",
+    "tags": ["UI", "Tipografia"],
+    "content": [
+      "Uma boa escala tipográfica elimina decisões repetitivas e aumenta a consistência.",
+      "Trabalhe com poucos níveis: título, subtítulo, corpo e texto auxiliar.",
+      "Variações de peso e cor resolvem mais problemas do que criar novos tamanhos.",
+      "Consistência tipográfica transmite confiança e facilita a leitura."
+    ]
+  },
+  {
+    "slug": "line-height-e-legibilidade",
+    "title": "Altura de linha e legibilidade: um detalhe que muda tudo",
+    "description": "Como ajustar line-height para melhorar leitura e conforto visual em textos longos.",
+    "author": "Lara",
+    "date": "2025-01-22",
+    "topic": "Tipografia",
+    "cover": "/images/legibilidade.png",
+    "tags": ["UI", "Tipografia", "Leitura"],
+    "content": [
+      "Texto difícil de ler cansa o usuário e aumenta abandono.",
+      "Para parágrafos, use line-height entre 1.6 e 1.8; para títulos, valores menores funcionam melhor.",
+      "Linhas muito próximas ou muito afastadas quebram o ritmo de leitura.",
+      "Ajustar altura de linha é uma das melhorias mais rápidas e eficazes em UI."
+    ]
+  },
+  {
+    "slug": "microcopy-e-texto-de-interface",
+    "title": "Microcopy: como pequenos textos melhoram grandes experiências",
+    "description": "Dicas práticas para escrever rótulos, botões e mensagens mais claros.",
+    "author": "Lara",
+    "date": "2025-01-27",
+    "topic": "Tipografia",
+    "cover": "/images/microcopy.png",
+    "tags": ["UX", "Microcopy", "Tipografia"],
+    "content": [
+      "Microcopy é o texto que guia o usuário durante a interface.",
+      "Prefira verbos claros e diretos em botões: 'Salvar', 'Continuar', 'Enviar'.",
+      "Mensagens de erro devem explicar o problema e indicar o próximo passo.",
+      "Bons textos reduzem dúvidas e aumentam confiança no produto."
+    ]
+  },
+  {
+    "slug": "paleta-de-cores-funcional",
+    "title": "Paleta de cores funcional: como escolher sem achismo",
+    "description": "Um método simples para criar paletas consistentes e aplicáveis em UI.",
+    "author": "Lara",
+    "date": "2025-02-01",
+    "topic": "Cores",
+    "cover": "/images/paleta.png",
+    "tags": ["UI", "Cores"],
+    "content": [
+      "Cores em UI precisam funcionar em contexto, não apenas ser bonitas.",
+      "Comece pelos neutros: fundo, texto principal e texto secundário.",
+      "A cor de destaque deve ser usada com moderação, principalmente para ações.",
+      "Consistência de cor ajuda o usuário a aprender o sistema."
+    ]
+  },
+  {
+    "slug": "contraste-e-acessibilidade",
+    "title": "Contraste e acessibilidade: o básico que não pode faltar",
+    "description": "Como usar contraste corretamente para garantir legibilidade e inclusão.",
+    "author": "Lara",
+    "date": "2025-02-05",
+    "topic": "Cores",
+    "cover": "/images/contraste.png",
+    "tags": ["UI", "Acessibilidade", "Cores"],
+    "content": [
+      "Contraste insuficiente é um dos erros mais comuns em interfaces.",
+      "Texto precisa se destacar claramente do fundo, mesmo em telas externas.",
+      "Não use apenas cor para indicar estado ou erro — combine com texto ou ícones.",
+      "Interfaces acessíveis são melhores para todos, não só para alguns."
+    ]
+  },
+  {
+    "slug": "cores-para-estados-ui",
+    "title": "Cores para estados de UI: hover, foco, erro e sucesso",
+    "description": "Como definir cores para estados sem confundir o usuário.",
+    "author": "Lara",
+    "date": "2025-02-09",
+    "topic": "Cores",
+    "cover": "/images/cores.png",
+    "tags": ["UI", "Estados", "Cores"],
+    "content": [
+      "Estados comunicam o que está acontecendo na interface.",
+      "Use variações sutis da cor principal para hover e active.",
+      "Erro, sucesso e alerta devem ter cores previsíveis e consistentes.",
+      "Estados bem definidos aumentam confiança e reduzem erros."
+    ]
+  },
+  {
+    "slug": "espacamento-e-respiro-visual",
+    "title": "Espaçamento e respiro visual: como deixar a interface respirar",
+    "description": "Por que espaço em branco é essencial para clareza e foco.",
+    "author": "Lara",
+    "date": "2025-02-13",
+    "topic": "Layout",
+    "cover": "/images/layout.png",
+    "tags": ["UI", "Layout", "Espaçamento"],
+    "content": [
+      "Espaço em branco não é desperdício, é organização visual.",
+      "Layouts muito densos aumentam esforço cognitivo.",
+      "Use espaçamento maior entre seções e menor dentro de grupos relacionados.",
+      "Respiro visual melhora leitura, foco e percepção de qualidade."
+    ]
+  }
+]

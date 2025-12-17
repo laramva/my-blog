@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    qualities: [75, 100], // ✅ libera quality={100}
+    unoptimized: true,
   },
+  basePath: "/my-blog",
+  assetPrefix: "/my-blog/",
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

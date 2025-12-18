@@ -1,6 +1,16 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import artigos from "@/data/artigos.json";
+import artigos from "../../../data/artigos.json";
+
+type Artigo = {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  topic: string;
+  cover: string;
+  content: string[];
+};
 
 type PageProps = {
   params: {
@@ -9,43 +19,41 @@ type PageProps = {
 };
 
 export default function ArtigoPage({ params }: PageProps) {
-  const artigo = artigos.find((a) => a.slug === params.slug);
+  const artigo = (artigos as Artigo[]).find(
+    (a) => a.slug === params.slug
+  );
 
   if (!artigo) {
     notFound();
   }
 
   return (
-    <main style={{ padding: "48px 0" }}>
-      <article className="articlePage">
-        {/* HEADER */}
+    <main className="articlePage">
+      <article className="articleCard">
         <header className="articleHeader">
           <span className="articleTopic">{artigo.topic}</span>
-          <h1>{artigo.title}</h1>
-          <p className="articleDescription">{artigo.description}</p>
           <span className="articleDate">{artigo.date}</span>
         </header>
 
-        {/* IMAGEM */}
-        {artigo.cover && (
-          <div className="articleCover">
-            <Image
-              src={artigo.cover}
-              alt={artigo.title}
-              width={900}
-              height={520}
-              priority
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
-        )}
+        <h1 className="articleTitle">{artigo.title}</h1>
+        <p className="articleDescription">{artigo.description}</p>
 
-        {/* CONTEÚDO */}
-        <section className="articleContent">
-          {artigo.content.map((paragraph: string, index: number) => (
+        <div className="articleImage">
+          <Image
+            src={artigo.cover}
+            alt={artigo.title}
+            width={900}
+            height={560}
+            quality={90}
+            priority
+          />
+        </div>
+
+        <div className="articleContent">
+          {artigo.content.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
-        </section>
+        </div>
       </article>
     </main>
   );

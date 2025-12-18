@@ -7,136 +7,127 @@
     "topic": "Layout",
     "cover": "/images/layout.png",
     "content": [
-      "Espaço em branco não é espaço vazio. Ele é um elemento ativo no design.",
-      "Quando usado corretamente, o respiro visual ajuda o usuário a entender hierarquia e foco.",
-      "Interfaces que respiram reduzem esforço cognitivo e aumentam a clareza.",
-      "Menos ruído visual significa decisões mais rápidas e seguras."
+      "Espaçamento não é vazio.",
+      "Ele cria hierarquia visual e direciona o olhar.",
+      "Interfaces congestionadas aumentam esforço cognitivo.",
+      "Respiro visual melhora leitura e compreensão."
     ]
   },
   {
-    "slug": "cores-para-estados-ui",
+    "slug": "cores-para-estados-de-ui",
     "title": "Cores para estados de UI: hover, foco, erro e sucesso",
     "description": "Como definir cores para estados sem confundir o usuário.",
     "date": "2025-02-09",
     "topic": "Cores",
     "cover": "/images/cores.png",
     "content": [
-      "Estados de interface precisam ser previsíveis.",
-      "Cores ajudam a comunicar feedback instantâneo.",
-      "Erro, sucesso e foco devem ser claros e consistentes.",
-      "Acessibilidade sempre vem antes da estética."
+      "Estados comunicam ações.",
+      "Cor precisa ser consistente.",
+      "Nunca use cor apenas como decoração."
     ]
   },
   {
     "slug": "contraste-e-acessibilidade",
     "title": "Contraste e acessibilidade: o básico que não pode faltar",
-    "description": "Como usar contraste corretamente.",
+    "description": "Como usar contraste corretamente em interfaces.",
     "date": "2025-02-05",
     "topic": "Cores",
     "cover": "/images/contraste.png",
     "content": [
-      "Contraste garante legibilidade.",
-      "Sem contraste adequado, não há acessibilidade.",
-      "Cores bonitas não substituem clareza.",
-      "Design inclusivo beneficia todos."
+      "Contraste garante leitura.",
+      "Não é sobre gosto pessoal.",
+      "É sobre inclusão."
     ]
   },
   {
     "slug": "paleta-de-cores-funcional",
     "title": "Paleta de cores funcional: como escolher sem achismo",
-    "description": "Criando sistemas de cores com intenção.",
+    "description": "Cor como sistema, não como decoração.",
     "date": "2025-02-01",
     "topic": "Cores",
     "cover": "/images/paleta.png",
     "content": [
-      "Paletas precisam de função.",
-      "Cada cor deve ter um papel.",
-      "Menos cores, mais consistência.",
-      "Sistema > decoração."
+      "Toda cor precisa de função.",
+      "Paletas simples escalam melhor.",
+      "Menos cores, mais clareza."
     ]
   },
   {
     "slug": "hierarquia-visual",
-    "title": "Hierarquia visual: guiando o olhar do usuário",
-    "description": "Como estruturar informações visualmente.",
+    "title": "Hierarquia visual: como guiar o olhar do usuário",
+    "description": "Tamanho, peso e espaçamento criam leitura natural.",
     "date": "2025-01-28",
     "topic": "Layout",
     "cover": "/images/hierarquia.png",
     "content": [
-      "Hierarquia define importância.",
-      "Tamanho, peso e espaçamento comunicam ordem.",
-      "Usuários não leem, escaneiam.",
-      "Hierarquia reduz confusão."
+      "Hierarquia é prioridade visual.",
+      "Nem tudo pode chamar atenção.",
+      "Design é decisão."
     ]
   },
   {
-    "slug": "grid-e-layout",
-    "title": "Grid e layout: estrutura invisível que organiza tudo",
-    "description": "Por que grids importam.",
-    "date": "2025-01-25",
+    "slug": "grid-e-alinhamento",
+    "title": "Grid e alinhamento: a base invisível do layout",
+    "description": "Por que layouts alinhados funcionam melhor.",
+    "date": "2025-01-24",
     "topic": "Layout",
     "cover": "/images/grid.png",
     "content": [
-      "Grids criam consistência.",
-      "Eles facilitam decisões.",
-      "Layouts organizados parecem mais profissionais.",
-      "Grid não limita, orienta."
+      "Grid organiza o caos.",
+      "Alinhamento traz ordem.",
+      "O usuário sente quando falta."
     ]
   },
   {
     "slug": "design-responsivo",
-    "title": "Design responsivo além do mobile first",
-    "description": "Pensando em múltiplos contextos.",
-    "date": "2025-01-22",
+    "title": "Design responsivo além do mobile",
+    "description": "Responsividade é adaptação, não encolhimento.",
+    "date": "2025-01-20",
     "topic": "Layout",
     "cover": "/images/responsivo.png",
     "content": [
-      "Responsividade é contexto.",
-      "Não é só largura de tela.",
-      "Conteúdo deve se adaptar.",
-      "Experiência vem primeiro."
+      "Cada tela tem contexto.",
+      "Layout precisa se adaptar.",
+      "Responsivo é estratégia."
     ]
   },
   {
     "slug": "escala-tipografica",
-    "title": "Escala tipográfica: criando ritmo visual",
-    "description": "Como definir tamanhos de texto.",
-    "date": "2025-01-18",
+    "title": "Escala tipográfica: criando ritmo no texto",
+    "description": "Como tamanhos e pesos criam leitura fluida.",
+    "date": "2025-01-16",
     "topic": "Tipografia",
     "cover": "/images/escala.png",
     "content": [
+      "Texto também é layout.",
       "Escala cria ritmo.",
-      "Tamanhos precisam conversar.",
-      "Tipografia guia leitura.",
-      "Menos variação, mais clareza."
+      "Boa tipografia orienta."
     ]
   },
   {
-    "slug": "legibilidade-tipografia",
-    "title": "Legibilidade: quando o texto realmente funciona",
-    "description": "Fontes, espaçamento e leitura.",
-    "date": "2025-01-15",
+    "slug": "legibilidade-na-pratica",
+    "title": "Legibilidade na prática: menos esforço, mais leitura",
+    "description": "Como facilitar a leitura em telas.",
+    "date": "2025-01-12",
     "topic": "Tipografia",
     "cover": "/images/legibilidade.png",
     "content": [
-      "Legibilidade é prioridade.",
-      "Linha, entrelinha e contraste importam.",
-      "Texto precisa ser confortável.",
-      "Leitura não deve cansar."
+      "Legibilidade é conforto.",
+      "Fonte errada cansa.",
+      "Leitura precisa fluir."
     ]
   },
   {
-    "slug": "microcopy",
-    "title": "Microcopy: pequenos textos, grande impacto",
-    "description": "Como palavras orientam ações.",
-    "date": "2025-01-10",
+    "slug": "microcopy-ux",
+    "title": "Microcopy em UX: palavras também são interface",
+    "description": "Como pequenos textos orientam decisões.",
+    "date": "2025-01-08",
     "topic": "Tipografia",
     "cover": "/images/microcopy.png",
     "content": [
-      "Microcopy reduz dúvidas.",
-      "Boas palavras guiam ações.",
-      "Texto é parte do design.",
-      "UX também é escrita."
+      "Texto guia ação.",
+      "Microcopy reduz erro.",
+      "Boa escrita melhora UX."
     ]
   }
 ]

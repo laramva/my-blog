@@ -1,92 +1,52 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import artigosJson from "../../../data/artigos.json";
+import artigos from "@/data/artigos.json";
 
-type Artigo = {
-  slug: string;
-  title: string;
-  description: string;
-  author: string;
-  date: string;
-  topic: string;
-  cover: string;
-  tags: string[];
-  content: string[];
+type PageProps = {
+  params: {
+    slug: string;
+  };
 };
 
-export const dynamicParams = false;
+export default function ArtigoPage({ params }: PageProps) {
+  const artigo = artigos.find((a) => a.slug === params.slug);
 
-export function generateStaticParams() {
-  const artigos = artigosJson as Artigo[];
-  return artigos.map((a) => ({ slug: a.slug }));
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-
-  const artigos = artigosJson as Artigo[];
-  const artigo = artigos.find((a) => a.slug === slug);
-
-  if (!artigo) return { title: "Artigo não encontrado" };
-
-  return {
-    title: artigo.title,
-    description: artigo.description,
-  };
-}
-
-export default async function ArtigoPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-
-  const artigos = artigosJson as Artigo[];
-  const artigo = artigos.find((a) => a.slug === slug);
-
-  if (!artigo) return notFound();
+  if (!artigo) {
+    notFound();
+  }
 
   return (
-    <main className="container">
-      <section className="articleLayout">
-        {/* CONTEÚDO */}
-        <div className="articleMain">
-          <div className="articleTop">
-            <span className="badge">{artigo.topic}</span>
-            <span className="meta">{artigo.date}</span>
-          </div>
+    <main style={{ padding: "48px 0" }}>
+      <article className="articlePage">
+        {/* HEADER */}
+        <header className="articleHeader">
+          <span className="articleTopic">{artigo.topic}</span>
+          <h1>{artigo.title}</h1>
+          <p className="articleDescription">{artigo.description}</p>
+          <span className="articleDate">{artigo.date}</span>
+        </header>
 
-          <h1 className="articleTitle">{artigo.title}</h1>
-          <p className="articleDesc">{artigo.description}</p>
-
-          <div className="articleContent">
-            {artigo.content.map((p, i) => (
-              <p key={`${artigo.slug}-p-${i}`}>{p}</p>
-            ))}
-          </div>
-        </div>
-
-        {/* IMAGEM LATERAL */}
-        <aside className="articleSide">
-          <div className="articleImageFrame">
+        {/* IMAGEM */}
+        {artigo.cover && (
+          <div className="articleCover">
             <Image
               src={artigo.cover}
               alt={artigo.title}
-              width={1200}          // 👈 reduz request real
-              height={1200}
-              quality={100}
+              width={900}
+              height={520}
               priority
-              sizes="(max-width: 980px) 92vw, 420px" // 👈 limite visual
-              className="articleImage"
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
-        </aside>
-      </section>
+        )}
+
+        {/* CONTEÚDO */}
+        <section className="articleContent">
+          {artigo.content.map((paragraph: string, index: number) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </section>
+      </article>
     </main>
   );
 }
